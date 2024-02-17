@@ -1,0 +1,50 @@
+O Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Instale o PowerShell mais recente para obter novos recursos e aprimoramentos! https://aka.ms/PSWindows
+
+PS C:\Users\impor\OneDrive\Documentos\git\senai-versoes-colaboradores> git add versoes3.txt
+PS C:\Users\impor\OneDrive\Documentos\git\senai-versoes-colaboradores> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   versoes3.txt
+
+PS C:\Users\impor\OneDrive\Documentos\git\senai-versoes-colaboradores> git commit -m "meu terceiro commit"
+[master 6f92b0f] meu terceiro commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 versoes3.txt
+PS C:\Users\impor\OneDrive\Documentos\git\senai-versoes-colaboradores> git log
+commit 6f92b0fda11516147c77701e0337e5fd25fb354f (HEAD -> master)
+Author: tulio <tuliosalustiano@gmail.com>
+Date:   Sat Feb 17 17:55:46 2024 -0300
+
+    meu terceiro commit
+
+commit 1850d9a462dc9fab65133fd1fabd3ec607e6440e (origin/master)
+Author: tulio <tuliosalustiano@gmail.com>
+Date:   Sat Feb 17 17:51:26 2024 -0300
+
+    meu segundo commit
+
+commit b96c6ce89248d75e6e18f4730829f95e51a541ae
+Author: tulio <tuliosalustiano@gmail.com>
+Date:   Sat Feb 17 17:27:40 2024 -0300
+
+    meu primeiro commit
+PS C:\Users\impor\OneDrive\Documentos\git\senai-versoes-colaboradores> git remote -v
+origin  https://github.com/tuliosalustiano27/senai-versoes-colaboradores.git (fetch)
+origin  https://github.com/tuliosalustiano27/senai-versoes-colaboradores.git (push)
+PS C:\Users\impor\OneDrive\Documentos\git\senai-versoes-colaboradores> git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 246 bytes | 246.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tuliosalustiano27/senai-versoes-colaboradores.git
+   1850d9a..6f92b0f  master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\impor\OneDrive\Documentos\git\senai-versoes-colaboradores>
